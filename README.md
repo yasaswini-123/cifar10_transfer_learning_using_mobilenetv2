@@ -139,6 +139,9 @@ Evaluation results are saved in the `outputs/` directory.
 
 ## Project Structure
 
+## Project Structure
+
+```text
 cifar10_transfer_learning_using_mobilenetv2/
 │
 ├── app/
@@ -169,7 +172,7 @@ cifar10_transfer_learning_using_mobilenetv2/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
 ---
 
 ## Installation and Setup
