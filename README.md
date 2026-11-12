@@ -139,18 +139,15 @@ Evaluation results are saved in the `outputs/` directory.
 
 ## Project Structure
 
-```text
-cifar10_transfer_learning/
+cifar10_transfer_learning_using_mobilenetv2/
 │
 ├── app/
 │   └── app.py
 │
-├── data/
-│   ├── cifar-10-batches-py/
-│   └── cifar-10-python.tar.gz
+├── data/                         # Dataset (download separately)
 │
 ├── models/
-│   └── best_model.weights.h5
+│   └── best_model.weights.h5     # Trained MobileNetV2 weights
 │
 ├── outputs/
 │   ├── classification_report.txt
@@ -163,13 +160,15 @@ cifar10_transfer_learning/
 │   ├── model.py
 │   ├── train.py
 │   ├── evaluate.py
-│   └── predict.py
+│   ├── predict.py
+│   └── test_model.py
 │
-├── training_mobilenetv2_colab.ipynb
+├── training_mobilenetv2_collab/
+│   └── cifar10_mobilenetv2_training_ipynb.ipynb
+│
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-```
 
 ---
 
